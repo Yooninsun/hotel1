@@ -11,7 +11,8 @@ body {
 #main #sec1 .full_video,
 #main #sec2 .banner01-wrap,
 #main #sec4 .tit,
-#main #sec5 h2
+#main #sec5 h2,
+#main #sec6 .tit
  { font-family: 'Montserrat','Noto Sans KR', sans-serif; } 
 #main #sec1 ul li  h3 { font-family: 'Noto Sans', sans-serif; }
 #footer .main_footer .footer_box h3 { font-family: 'Roboto', sans-serif;}
@@ -746,6 +747,12 @@ body {
   width: 125px;
   font-weight: bold;
 }
+#footer .main_footer .footer_box ul li > a {
+  opacity: 0.7;
+} 
+#footer .main_footer .footer_box ul li > a:hover {
+  opacity: 1;
+} 
 #footer .main_footer .e_service {
   width: 350px;
   margin-left: 125px;
@@ -758,6 +765,7 @@ body {
   display: inline-block;
   margin-top: 25px;
 }
+
 
 #footer .main_footer .sns_box {
   position: absolute;
@@ -774,6 +782,10 @@ body {
   padding-left: 23px;
   line-height: 49px;
   background: #272624;
+  opacity: 0.7;
+}
+#footer .main_footer .sns_box .family_site a:hover {
+  opacity: 1;
 }
 #footer .main_footer .sns_box .family_site .list {
   position: absolute;
@@ -820,6 +832,10 @@ body {
   width: 26px;
   height: 24px;
   margin-left: 24px;
+  opacity: 0.7;
+}
+#footer .main_footer .sns_box .sns img:hover {
+  opacity: 1;
 }
 #footer .main_footer .sns_box .sns1 img {
   margin-left: 0;
@@ -852,6 +868,10 @@ body {
 #footer address > ul > li > a {
   font-weight: 300;
   color: rgba(255,255,255,0.65);
+  opacity: 0.7;
+}
+#footer address > ul > li > a:hover {
+  opacity: 1;
 }
 #footer address .address_box {
   position: relative;
